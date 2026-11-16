@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUTTALGAL MANDRAM | FAKE WEBSITE</title>
+  <meta name="description" content="Muttalgal Mandram – Tamil learning and class fun website.">
+  <style>
+    :root {
+      --blue: #0000ff;
+      --green: #087443;
+      --dark: #123d2b;
+      --gold: #d9a62e;
+      --cream: #fffdf5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans Tamil", "Latha", sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #075b36, #087443);
+      color: white; text-align: center; padding: 35px 15px;
+      border-bottom: 5px solid var(--gold);
+    }
+    .logo { font-size: 27px; font-weight: bold; color: #ffdc75; }
+    header h1 { font-size: 32px; margin: 12px 0; }
+    header p { font-size: 15px; }
+    .home-btn {
+      display: inline-block; margin-top: 18px; background: var(--gold);
+      color: #183b29; padding: 10px 22px; border-radius: 25px;
+      text-decoration: none; font-weight: bold;
+    }
+    .container { max-width: 1100px; margin: auto; padding: 25px 16px; }
+    .intro { text-align: center; padding: 25px 10px; }
+    .intro h2, .section-title { color: var(--green); }
+    .intro h2 { font-size: 26px; }
+    .intro p { margin-top: 8px; }
+    .section-title { text-align: center; font-size: 25px; margin: 35px 0 18px; }
+    .cards {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 12px;
+    }
+    .letter {
+      background: white; border: 1px solid #e6e3d4; border-bottom: 4px solid var(--gold);
+      border-radius: 12px; padding: 15px 5px; text-align: center;
+      font-size: 32px; cursor: pointer; transition: .2s;
+    }
+    .letter:hover { background: #e8f6ed; transform: translateY(-3px); }
+    .letter small { display: block; font-size: 11px; color: #777; }
+    .info {
+      background: #e8f5ec; border-left: 5px solid var(--green); padding: 16px;
+      border-radius: 8px; margin-top: 20px; text-align: center;
+    }
+    .action-btn {
+      background: var(--green); color: white; padding: 11px 22px; border: none;
+      border-radius: 25px; cursor: pointer; font-size: 15px; margin: 8px 4px;
+    }
+    .action-btn:hover { background: var(--dark); }
+    .words { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 15px; }
+    .word-card { background: white; padding: 18px; text-align: center; border-radius: 12px; border: 1px solid #e6e3d4; }
+    .word-card h3 { color: var(--green); font-size: 27px; }
+    .word-card p { color: #777; }
+    .quiz-box {
+      background: white; border: 2px solid var(--gold); border-radius: 15px;
+      padding: 25px; text-align: center; margin: 20px auto; max-width: 600px;
+    }
+    .quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+    .quiz-options button {
+      background: #e8f5ec; color: var(--dark); padding: 13px;
+      border: 1px solid var(--green); border-radius: 10px; cursor: pointer; font-size: 20px;
+    }
+    .quiz-options button:hover { background: #ccebd7; }
+    #feedback { margin-top: 15px; font-weight: bold; }
+    footer { background: var(--dark); color: white; text-align: center; padding: 25px 10px; margin-top: 45px; }
+    footer span { color: var(--gold); }
+    @media (max-width: 600px) {
+      header h1 { font-size: 25px; }
+      .cards { grid-template-columns: repeat(3, 1fr); }
+      .letter { font-size: 27px; }
+      .quiz-options { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MUTTALGAL MANDRAM</div>
+    <h1>Hello, Shri Han Muthukumar!</h1>
+    <p>NIRMAL • PADMESH • KISHANTH</p>
+    <a href="index.html" class="home-btn">⌂ முகப்புப் பக்கம்</a>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>உருட்டு</h2>
+      <p>உருட்டுகளை ஆராய்ந்து நாம் சிறப்போம்!</p>
+    </section>
+
+    <h2 class="section-title">XI A</h2>
+    <div class="cards" id="uyir"></div>
+    <div class="info">
+      <b>BOYS</b>
+      <p>THE CORE.</p>
+      <p>PADMESH • NIRMAL • KISHANTH • SHRIHAN</p>
+    </div>
+
+    <h2 class="section-title">🌿 BADASS</h2>
+    <div class="cards" id="UIY"></div>
+    <div class="info">
+      <b>SILAMBARASAN</b>
+      <p>Honourable CM of Tamil Nadu: Thiru. Joseph Vijay.</p>
+    </div>
+
+    <h2 class="section-title">🌺 உயிர்மெய் எழுத்துக்கள் (216)</h2>
+    <p style="text-align:center;margin-bottom:15px">
+      ஒரு மெய் எழுத்தைத் தேர்ந்தெடுத்து அதன் உயிர்மெய் எழுத்துக்களைக் கற்கவும்.
+    </p>
+    <div class="cards" id="meiSelect"></div>
+    <div class="cards" id="uyirmei" style="margin-top:20px"></div>
+
+    <h2 class="section-title">📚 அடிப்படை தமிழ் சொற்கள்</h2>
+    <div class="words">
+      <div class="word-card"><h3>அம்மா</h3><p>Mother</p><button class="action-btn" onclick="speak('அம்மா')">🔊 கேட்க</button></div>
+      <div class="word-card"><h3>அப்பா</h3><p>Father</p><button class="action-btn" onclick="speak('அப்பா')">🔊 கேட்க</button></div>
+      <div class="word-card"><h3>நன்றி</h3><p>Thank you</p><button class="action-btn" onclick="speak('நன்றி')">🔊 கேட்க</button></div>
+      <div class="word-card"><h3>வணக்கம்</h3><p>Hello / Greetings</p><button class="action-btn" onclick="speak('வணக்கம்')">🔊 கேட்க</button></div>
+    </div>
+
+    <h2 class="section-title">🏆 XI A QUIZ</h2>
+    <div class="quiz-box">
+      <h3 id="question">தமிழ் வினாடி வினா</h3>
+      <div class="quiz-options" id="options"></div>
+      <p id="feedback" aria-live="polite"></p>
+      <p id="score" style="margin-top:12px">மதிப்பெண்: 0</p>
+      <button class="action-btn" onclick="nextQuestion()">அடுத்த கேள்வி →</button>
+    </div>
+  </main>
+
+  <footer><span>MUTTALGAL MANDRAM</span> · Learn and have fun</footer>
+
+  <script>
+    // Tamil vowels and consonants
+    const vowels = ["அ","ஆ","இ","ஈ","உ","ஊ","எ","ஏ","ஐ","ஒ","ஓ","ஔ"];
+    const consonants = ["க்","ங்","ச்","ஞ்","ட்","ண்","த்","ந்","ப்","ம்","ய்","ர்","ல்","வ்","ழ்","ள்","ற்","ன்"];
+    const vowelSigns = ["","ா","ி","ீ","ு","ூ","ெ","ே","ை","ொ","ோ","ௌ"];
+
+    const uyirArea = document.getElementById("uyir");
+    vowels.forEach(letter => {
+      const card = document.createElement("button");
+      card.className = "letter";
+      card.textContent = letter;
+      card.type = "button";
+      card.onclick = () => speak(letter);
+      uyirArea.appendChild(card);
+    });
+
+    const meiArea = document.getElementById("meiSelect");
+    const uyirmeiArea = document.getElementById("uyirmei");
+    consonants.forEach(consonant => {
+      const card = document.createElement("button");
+      card.className = "letter";
+      card.type = "button";
+      card.textContent = consonant;
+      card.onclick = () => {
+        uyirmeiArea.innerHTML = "";
+        const base = consonant.slice(0, -1);
+        vowelSigns.forEach((sign, index) => {
+          const item = document.createElement("button");
+          item.className = "letter";
+          item.type = "button";
+          item.textContent = base + sign;
+          item.onclick = () => speak(item.textContent);
+          uyirmeiArea.appendChild(item);
+        });
+      };
+      meiArea.appendChild(card);
+    });
+
+    function speak(text) {
+      if (!("speechSynthesis" in window)) {
+        alert("இந்த உலாவியில் குரல் வசதி இல்லை.");
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "ta-IN";
+      window.speechSynthesis.speak(utterance);
+    }
+
+    // Neutral class quiz example
+    const questions = [{
+      q: "தமிழில் முதல் உயிரெழுத்து எது?",
+      a: ["அ","ஆ","இ","ஈ"],
+      correct: "அ"
+    }];
+
+    let current = 0;
+    let points = 0;
+    let answered = false;
+
+    function loadQuestion() {
+      answered = false;
+      const q = questions[current];
+      document.getElementById("question").textContent = q.q;
+      document.getElementById("feedback").textContent = "";
+      const area = document.getElementById("options");
+      area.innerHTML = "";
+      q.a.forEach(option => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = option;
+        btn.onclick = () => checkAnswer(option);
+        area.appendChild(btn);
+      });
+      document.getElementById("score").textContent = "மதிப்பெண்: " + points;
+    }
+
+    function checkAnswer(answer) {
+      if (answered) return;
+      answered = true;
+      const correct = questions[current].correct;
+      document.getElementById("feedback").textContent =
+        answer === correct ? "🎉 சரியான பதில்!" : "மீண்டும் முயற்சி செய்யுங்கள்! சரியான பதில்: " + correct;
+      if (answer === correct) points++;
+      document.getElementById("score").textContent = "மதிப்பெண்: " + points + " / " + (current + 1);
+    }
+
+    function nextQuestion() {
+      if (current < questions.length - 1) {
+        current++;
+        loadQuestion();
+      } else {
+        document.getElementById("question").textContent = "வாழ்த்துக்கள்! வினாடி வினா முடிந்தது!";
+        document.getElementById("options").innerHTML = "";
+        document.getElementById("feedback").textContent = "உங்கள் இறுதி மதிப்பெண்: " + points + " / " + questions.length;
+        document.getElementById("score").textContent = "XI A – கற்போம்!";
+      }
+    }
+
+    loadQuestion();
+  </script>
+</body>
+</html>
